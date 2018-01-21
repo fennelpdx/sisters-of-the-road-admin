@@ -38,7 +38,7 @@ How to get this project running on your machine.
 
         That should return a path (e.g., `/usr/local/bin/python3`).
 
-3. Install PostgreSQL.
+3. Install PostgreSQL. (Most contributors have switched to sqlite)
 
     - With [Postgres.app](https://postgresapp.com/) for macOS.
 
@@ -55,6 +55,12 @@ How to get this project running on your machine.
       That should return a path (e.g., `/usr/local/bin/postgres`).
 
 4. [Install Node.js.](https://nodejs.org/en/)
+    
+    - With [Homebrew](https://brew.sh/) for macOS:
+
+        ```sh
+        brew install node
+        ```
 
 ## 2. Download the project.
 
